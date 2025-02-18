@@ -24,6 +24,8 @@ class LoanResource extends Resource
     public static function formFields()
     {
         return [
+            Select::make('financier_uuid')
+                ->relationship('financier', 'name'),
             TextInput::make('title'),
             Select::make('status')->options(StatusEnum::class),
             DateTimePicker::make('deadline'),

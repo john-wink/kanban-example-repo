@@ -18,6 +18,15 @@ class Loan extends Model implements KanbanRecordModel
 
     use HasUuid;
 
+    protected $fillable = [
+        'title',
+        'status',
+        'deadline',
+        'sort',
+        'user_uuid',
+        'financier_uuid',
+    ];
+
     public $casts = [
         'status' => StatusEnum::class,
         'deadline' => 'datetime',
@@ -72,6 +81,6 @@ class Loan extends Model implements KanbanRecordModel
 
     public function sortColumn(): string
     {
-        return 'created_at';
+        return 'sort';
     }
 }

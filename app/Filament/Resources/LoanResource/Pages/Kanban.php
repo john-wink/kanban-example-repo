@@ -58,4 +58,18 @@ class Kanban extends KanbanBoard
         ])
             ->whereIn('status', $this->status());
     }
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            $this->addAction()
+        ];
+    }
+
+    protected function mutateFormDataAfterAddAction(array $data): array
+    {
+        $data = parent::mutateFormDataAfterAddAction($data);
+        $data['user_uuid'] = auth()->id();
+        return $data;
+    }
 }

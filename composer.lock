@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d2c6e156f72038c7a538b378d181c46b",
+    "content-hash": "0f9f3b465bc5347b166ff4b4229c960f",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2021,12 +2021,12 @@
         },
         {
             "name": "heloufir/filament-kanban",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "dist": {
                 "type": "zip",
-                "url": "https://filament-kanban.composer.sh/download/9e3be9cc-1923-4b00-a8ac-6337d4ef0522/filament-kanban-2.0.3.zip",
-                "reference": "011ee59cbe0ec06649c52c3f97489e67cfb0def0",
-                "shasum": "457eadb57b818b4f156e40e081e1e63bb4f77f74"
+                "url": "https://filament-kanban.composer.sh/download/9e3de2f7-8351-4960-8bf3-bdb95a14ae54/filament-kanban-2.0.4.zip",
+                "reference": "17dfddbf7fca2142da8e365caf5df07a0ff21c8d",
+                "shasum": "7e6a6b667c6bd5782ec3d783630ebfdc9d880a62"
             },
             "require": {
                 "filament/filament": "^3.2",
@@ -2066,7 +2066,7 @@
                 "issues": "https://github.com/heloufir/filament-kanban/issues",
                 "source": "https://github.com/heloufir/filament-kanban"
             },
-            "time": "2025-02-17T14:13:48+00:00"
+            "time": "2025-02-18T13:46:22+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
